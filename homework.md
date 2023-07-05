@@ -37,6 +37,7 @@ pg_dump -U <username> -d <database_name> -f <backup_file_name>
 
 
 Восстановление данных с помощью pg_restore:
+
 pg_restore -U <username> -d <database_name> <backup_file_name>
 
 
